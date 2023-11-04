@@ -1,19 +1,24 @@
 import { GetServerSideProps } from "next";
 import { getSession, signOut, useSession } from "next-auth/react";
+import Image from "next/image";
 
 export default function Dashboard() {
   const { data: session } = useSession();
+  console.log(session);
+
   return (
     <section className="flex items-center justify-center h-[100vh]">
       <div className="flex flex-col items-center">
         <h2 className="m-[1rem] font-extrabold text-[30px]">Dashboard</h2>
         <div className="flex flex-wrap">
           <div className="">
-            <img
-              className="rounded-full w-[80px] h-[80px]"
-              src="https://avatars.githubusercontent.com/u/86265413?v=4"
+            {/* <Image
+              className="rounded-full w-[80px]"
+              src={session.user.image}
+              width="200"
+              height="200"
               alt="user avatar"
-            />
+            /> */}
           </div>
           <div className="flex flex-col ml-6 justify-center">
             <h2> {session?.user?.name}</h2>
