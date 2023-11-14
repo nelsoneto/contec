@@ -42,16 +42,25 @@ export default function Home() {
           onSubmit={handleSubmit}
         >
           <div className="flex flex-col gap-2">
-            <label htmlFor="email">E-mail</label>
+            <label htmlFor="email">CNPJ</label>
             <input
               type="text"
+              name="cnpj"
+              className="p-[10px] bg-slate-900 outline-0 rounded"
+              onChange={InputValue}
+            />
+          </div>
+          <div className="flex flex-col gap-2">
+            <label htmlFor="email">Matricula</label>
+            <input
+              type="number"
               name="email"
               className="p-[10px] bg-slate-900 outline-0 rounded"
               onChange={InputValue}
             />
           </div>
           <div className="flex flex-col gap-2 mb-3">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">Senha</label>
             <input
               type="password"
               name="password"

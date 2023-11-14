@@ -4,7 +4,8 @@ import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
 
 type ICredentials = {
-  email: string;
+  cnpj: string;
+  matricula: string;
   password: string;
 };
 export const authOptions = {
@@ -24,11 +25,14 @@ export const authOptions = {
       name: "Credentials",
       credentials: {},
 
-      async authorize({ email, password }: ICredentials) {
-        const response = await fetch("http://localhost:8000/user/session", {
-          method: "POST",
-          body: new URLSearchParams({ email, password }),
-        });
+      async authorize({ cnpj, matricula, password }: ICredentials) {
+        const response = await fetch(
+          "https://testemobile.smartinform.com.br/public/login",
+          {
+            method: "POST",
+            body: new URLSearchParams({ cnpj, matricula, password }),
+          }
+        );
 
         const data = await response.json();
 
