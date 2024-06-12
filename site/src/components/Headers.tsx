@@ -1,16 +1,16 @@
 'use client'
-import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
+import { Menu, Search, X } from 'lucide-react'
 import { useState } from 'react'
 
 import Image from 'next/image'
 import contecLogo from '../assets/logo.svg'
+import { InputControl, InputPrefix, InputRoot } from './Input'
 
 export function Header() {
   const Links = [
     { id: 1, name: 'Quem somos?', link: '/' },
     { id: 2, name: 'Soluções', link: '/' },
-    { id: 3, name: 'Utilitários', link: '/' },
-    { id: 4, name: 'Suporte', link: '/' },
+    { id: 3, name: 'Suporte', link: '/' },
   ]
   const [open, setOpen] = useState(false)
 
@@ -25,12 +25,18 @@ export function Header() {
             className="h-auto w-auto"
           />
         </div>
+        <InputRoot>
+          <InputPrefix>
+            <Search className="h-5 w-5 text-zinc-500" />
+          </InputPrefix>
+          <InputControl />
+        </InputRoot>
         {/* Menu icon */}
         <div
           onClick={() => setOpen(!open)}
           className="absolute right-8 top-6 h-7 w-7 cursor-pointer md:hidden"
         >
-          {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
+          {open ? <X /> : <Menu />}
         </div>
         {/* linke items */}
         <ul
