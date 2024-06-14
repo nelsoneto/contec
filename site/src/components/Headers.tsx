@@ -1,10 +1,9 @@
 'use client'
-import { Menu, Search, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
 import Image from 'next/image'
 import contecLogo from '../assets/logo.svg'
-import { InputControl, InputPrefix, InputRoot } from './Input'
 
 export function Header() {
   const Links = [
@@ -16,7 +15,7 @@ export function Header() {
 
   return (
     <div className="fixed left-0 top-0 w-full shadow-md">
-      <div className="items-center justify-between bg-white px-7 py-2 md:flex md:px-10">
+      <div className="items-center justify-between bg-white px-7 py-4 md:flex md:px-10">
         {/* logo section */}
         <div className="flex cursor-pointer items-center gap-1 text-2xl font-bold">
           <Image
@@ -25,12 +24,7 @@ export function Header() {
             className="h-auto w-auto"
           />
         </div>
-        <InputRoot>
-          <InputPrefix>
-            <Search className="h-5 w-5 text-zinc-500" />
-          </InputPrefix>
-          <InputControl />
-        </InputRoot>
+
         {/* Menu icon */}
         <div
           onClick={() => setOpen(!open)}

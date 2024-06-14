@@ -25,9 +25,9 @@ export default function RootLayout({
   children: ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="antialiased">
       <body className={`${roboto.variable} ${baiJamjuree.variable} font-sans`}>
-        <main className="mx-auto mt-32 h-screen max-w-7xl">
+        <main className="h-screen">
           <Header />
           {/* <Slider /> */}
           {children}
