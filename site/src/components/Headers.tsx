@@ -14,8 +14,8 @@ export function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="fixed left-0 top-0 w-full shadow-md">
-      <div className="items-center justify-between bg-white px-7 py-4 md:flex md:px-10">
+    <div className="fixed left-0 top-0 z-50 w-full shadow-md">
+      <div className="items-center justify-between bg-white px-7 py-2 md:flex md:px-10">
         {/* logo section */}
         <div className="flex cursor-pointer items-center gap-1 text-2xl font-bold">
           <Image
@@ -28,7 +28,7 @@ export function Header() {
         {/* Menu icon */}
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 h-7 w-7 cursor-pointer md:hidden"
+          className="absolute right-8 top-6 h-7 w-7 cursor-pointer py-0 md:hidden"
         >
           {open ? <X /> : <Menu />}
         </div>
@@ -37,7 +37,10 @@ export function Header() {
           className={`absolute left-0 z-[-1] w-full bg-white pb-12 pl-9 transition-all duration-500 ease-in md:static md:z-auto md:flex md:w-auto md:items-center md:pb-0 md:pl-0 ${open ? 'top-12' : 'top-[-490px]'}`}
         >
           {Links.map((link) => (
-            <li key={link.id} className="my-7 font-semibold md:my-0 md:ml-8">
+            <li
+              key={link.id}
+              className="my-7 py-2 font-semibold md:my-0 md:ml-8"
+            >
               <a
                 href={link.link}
                 className="text-gray-800 duration-500 hover:text-blue-400"

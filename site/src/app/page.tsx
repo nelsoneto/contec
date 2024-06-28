@@ -1,12 +1,21 @@
 import { InputControl, InputPrefix, InputRoot } from '@/components/Input'
+import SlideShow from '@/components/SlideShow'
 import { Search } from 'lucide-react'
 
 export default function Home() {
   return (
     <>
+      <SlideShow />
       <div className="h-2/3 w-full bg-blue-500 px-16 py-24">
-        <div></div>
-        <p>Texto 1</p>
+        <div className="grid grid-cols-2 items-center gap-4 py-28">
+          <div className="w-auto text-wrap bg-slate-800">
+            <p className="font-alt text-3xl text-gray-100">
+              A Solução para automatizar processos e otimizar resultados em sua
+              empresa.
+            </p>
+          </div>
+          <div className="h-52 w-2/3 bg-slate-500">texto</div>
+        </div>
       </div>
       <div className="h-2/3 w-full bg-blue-400 px-16 py-4">
         <p>Texto 2</p>
