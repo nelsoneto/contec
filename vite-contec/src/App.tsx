@@ -4,17 +4,16 @@ import Testimonial from './components/Testimonial'
 
 function App() {
   return (
-    <div className='font-baijamjuree-regular'>
+    <div className="font-baijamjuree-regular">
       <Navbar />
       <Hero />
       <Testimonial />
       <div>
-        <div className="bg-blue-600 h-screen">
-        </div>
-        <div className="bg-blue-500 h-screen p-24">
+        <div className="h-screen bg-blue-600"></div>
+        <div className="h-screen bg-blue-500 p-24">
           <h1 className="font-roboto-regular text-2xl">Hello world</h1>
         </div>
-        <div className="bg-blue-400 h-screen"></div>
+        <div className="h-screen bg-blue-400"></div>
       </div>
     </div>
   )

@@ -12,7 +12,7 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="fixed left-0 top-0 w-full shadow-md z-50">
+    <div className="fixed left-0 top-0 z-50 w-full shadow-md">
       <div className="items-center justify-between bg-white px-7 py-2 md:flex md:px-10">
         {/* logo section */}
         <div className="flex cursor-pointer items-center gap-1 text-2xl font-bold">

@@ -3,3 +3,4 @@ module.exports = {
 }
 
 // NÃO COLOCAR REQUIRE
+// para commom js é preciso colocar a extensão .cjs

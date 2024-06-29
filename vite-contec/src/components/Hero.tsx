@@ -12,8 +12,17 @@ export function Hero() {
     //     </div>
     //   </div>
     // </div>
-    <section className='relative w-full min-h-screen md:h-screen flex md:block flex-col justify-center'>
-      <img alt="city" src={city} className='h-96 w-96' />
+    <section className="relative flex min-h-screen w-full flex-col justify-center md:block md:h-screen">
+      <div className="grid grid-cols-2 bg-slate-500 px-24 py-20">
+        <div className="flex flex-col items-center justify-center">
+          <h1>aosdfkasodfkaodfdko</h1>
+          <h1>aosdfkasodfkaodfdko</h1>
+        </div>
+        <div className="flex justify-center bg-fuchsia-400">
+          <img alt="city" src={city} className="h-96 w-96" />
+        </div>
+      </div>
+      <h2></h2>
     </section>
   )
 }
