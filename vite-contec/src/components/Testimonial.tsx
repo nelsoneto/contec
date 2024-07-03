@@ -29,24 +29,24 @@ export default function Testimonial() {
   }
 
   return (
-    <div className="py-4">
+    <div className="py-14 pb-10 lg:px-64">
       {/* Container for the Slider */}
-      <section className="relative mx-auto w-full max-w-[1800px] overflow-hidden rounded-xl">
+      <section className="relative mx-auto w-full max-w-[1800px] rounded-xl px-6">
         {/* Main Section */}
         <Slider {...settings} ref={sliderRef}>
           {testimonials.map((single, index) => {
             return (
               <div key={index} className="h-full">
-                <section className="mx-auto grid grid-cols-1 items-center gap-5 overflow-hidden rounded-xl bg-white p-5 sm:grid-cols-[1fr_3fr] sm:p-4 md:grid-cols-[1fr_4fr] md:gap-8">
+                <section className="mx-auto grid grid-cols-1 items-center gap-5 overflow-hidden rounded-xl bg-white sm:p-4 md:grid-cols-[1fr_4fr] md:gap-8">
                   {/* Left Section */}
                   <div className="space-y-5 text-center">
                     {/* Image */}
                     <div className="inline-block rounded-sm">
-                      <div className="mx-auto h-96 w-96 overflow-hidden rounded-xl bg-gray-200 object-cover">
+                      <div className="mx-auto h-72 w-72 bg-gray-200 object-cover md:h-96 md:w-96">
                         <img
                           src={single.img}
                           alt="Boy"
-                          className="h-full w-full object-cover"
+                          className="h-full w-full rounded-lg object-cover"
                         />
                       </div>
                     </div>
