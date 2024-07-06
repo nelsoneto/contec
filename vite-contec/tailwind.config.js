@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-image': 'url(/src/assets/images/man-notebook.png)',
+        'custom-image': 'url(/src/assets/pexels-olly-864994.jpg)',
       },
       fontFamily: {
         'roboto-regular': ['Roboto-Regular', 'sans-serif'],

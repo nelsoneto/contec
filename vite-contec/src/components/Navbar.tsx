@@ -13,7 +13,7 @@ export function Navbar() {
 
   return (
     <div className="fixed left-0 top-0 z-50 w-full shadow-md">
-      <div className="items-center justify-between bg-white px-7 py-2 md:flex md:px-10">
+      <div className="items-center justify-between bg-slate-800 px-7 py-2 md:flex md:px-10">
         {/* logo section */}
         <div className="flex cursor-pointer items-center gap-1 text-2xl font-bold">
           <img
@@ -32,7 +32,7 @@ export function Navbar() {
         </div>
         {/* linke items */}
         <ul
-          className={`absolute left-0 z-[-1] w-full bg-white pb-12 pl-9 transition-all duration-500 ease-linear md:static md:z-auto md:flex md:w-auto md:items-center md:pb-0 md:pl-0 ${open ? 'top-12' : 'top-[-490px]'}`}
+          className={`absolute left-0 z-[-1] w-full bg-slate-800 pb-12 pl-9 transition-all duration-500 ease-linear md:static md:z-auto md:flex md:w-auto md:items-center md:pb-0 md:pl-0 ${open ? 'top-12' : 'top-[-490px]'}`}
         >
           {Links.map((link) => (
             <li
@@ -41,13 +41,13 @@ export function Navbar() {
             >
               <a
                 href={link.link}
-                className="text-gray-800 duration-500 hover:text-blue-400"
+                className="rounded border-2 border-transparent px-3 py-2 text-zinc-100 duration-500 hover:border-blue-400"
               >
                 {link.name}
               </a>
             </li>
           ))}
-          <button className="btn rounded bg-blue-600 px-3 py-1 font-semibold text-white duration-500 hover:bg-blue-800 md:static md:ml-8">
+          <button className="rounded border-2 border-transparent bg-blue-600 px-3 py-1 font-semibold text-zinc-100 duration-500 hover:border-blue-400 md:static md:ml-8">
             Entrar
           </button>
         </ul>

@@ -37,7 +37,7 @@ export default function Testimonial() {
           {testimonials.map((single, index) => {
             return (
               <div key={index} className="h-full">
-                <section className="mx-auto grid grid-cols-1 items-center gap-5 overflow-hidden rounded-xl bg-white sm:p-4 md:grid-cols-[1fr_4fr] md:gap-8">
+                <section className="mx-auto grid grid-cols-1 items-center gap-5 overflow-hidden rounded-xl sm:p-4 md:grid-cols-[1fr_4fr] md:gap-8">
                   {/* Left Section */}
                   <div className="space-y-5 text-center">
                     {/* Image */}
@@ -46,7 +46,7 @@ export default function Testimonial() {
                         <img
                           src={single.img}
                           alt="Boy"
-                          className="h-full w-full rounded-lg object-cover"
+                          className="h-full w-full rounded-lg object-cover ring-8 ring-blue-200"
                         />
                       </div>
                     </div>
@@ -59,7 +59,7 @@ export default function Testimonial() {
                   </div>
 
                   {/* Right Section */}
-                  <div className="space-y-3 text-[16px] sm:text-[18px]">
+                  <div className="space-y-3 text-[16px] text-zinc-400 sm:text-[18px]">
                     {/* Testimonial */}
                     <p className="font-bold leading-[30px]">
                       {single.testimonial}
@@ -73,13 +73,13 @@ export default function Testimonial() {
 
         {/* Custom Buttons */}
         <button
-          className="absolute left-[10px] top-[50%] z-10 text-2xl text-gray-600 sm:top-[30%] md:top-[40%] lg:top-[50%]"
+          className="absolute left-[0px] top-[50%] z-10 text-2xl text-zinc-400 sm:top-[30%] md:top-[40%] lg:top-[50%]"
           onClick={() => sliderRef?.current?.slickPrev()}
         >
           <ChevronLeft />
         </button>
         <button
-          className="absolute right-[10px] top-[50%] z-10 text-2xl text-gray-600 sm:top-[30%] md:top-[40%] lg:top-[50%]"
+          className="absolute right-[0px] top-[50%] z-10 text-2xl text-zinc-400 sm:top-[30%] md:top-[40%] lg:top-[50%]"
           onClick={() => sliderRef?.current?.slickNext()}
         >
           <ChevronRight />
