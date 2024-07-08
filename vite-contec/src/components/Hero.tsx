@@ -2,7 +2,7 @@ import heroImg from '../assets/responsive-contec.svg'
 
 export function Hero() {
   return (
-    <section className="bg-slate-900 px-6 py-20 lg:px-72 lg:py-16">
+    <section className="bg-slate-900 px-6 py-20 xl:px-72 xl:py-16">
       <div className="grid w-full items-center justify-center gap-7 rounded-lg px-4 py-4 lg:grid-cols-2">
         <div className="flex flex-col items-center justify-center gap-10 rounded-lg px-2 py-2 text-center lg:text-left">
           <span className="rounded-md font-baijamjuree-bold text-2xl text-zinc-300 md:text-3xl lg:text-4xl">

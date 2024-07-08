@@ -29,9 +29,9 @@ export default function Testimonial() {
   }
 
   return (
-    <div className="py-14 pb-10 lg:px-64">
+    <div className="py-14 pb-10 xl:px-56">
       {/* Container for the Slider */}
-      <section className="relative mx-auto w-full max-w-[1800px] rounded-xl px-6">
+      <section className="relative mx-auto w-full max-w-[1800px] rounded-xl px-4">
         {/* Main Section */}
         <Slider {...settings} ref={sliderRef}>
           {testimonials.map((single, index) => {

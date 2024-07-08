@@ -5,7 +5,7 @@ import Testimonial from './components/Testimonial'
 
 function App() {
   return (
-    <div className="min-h-screen w-full pt-16 font-baijamjuree-regular">
+    <div className="min-h-screen w-full font-baijamjuree-regular">
       <Navbar />
       <Header />
       <Hero />
