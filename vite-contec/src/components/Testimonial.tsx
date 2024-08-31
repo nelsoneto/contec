@@ -15,6 +15,7 @@ import 'slick-carousel/slick/slick.css'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 export default function Testimonial() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const sliderRef = useRef<any>()
 
   //  Settings Related to the React Slick
@@ -29,7 +30,7 @@ export default function Testimonial() {
   }
 
   return (
-    <div className="py-14 pb-10 xl:px-56">
+    <div className="py-14 pb-10 xl:px-96">
       {/* Container for the Slider */}
       <section className="relative mx-auto w-full max-w-[1800px] rounded-xl px-4">
         {/* Main Section */}
@@ -37,12 +38,12 @@ export default function Testimonial() {
           {testimonials.map((single, index) => {
             return (
               <div key={index} className="h-full">
-                <section className="mx-auto grid grid-cols-1 items-center gap-5 overflow-hidden rounded-xl sm:p-4 md:grid-cols-[1fr_4fr] md:gap-8">
+                <section className="mx-auto grid grid-cols-1 items-center gap-5 overflow-hidden rounded-xl sm:p-4 md:grid-cols-[1fr_4fr] md:gap-10">
                   {/* Left Section */}
                   <div className="space-y-5 text-center">
                     {/* Image */}
                     <div className="inline-block rounded-sm">
-                      <div className="mx-auto h-72 w-72 bg-gray-200 object-cover md:h-96 md:w-96">
+                      <div className="mx-auto h-60 w-60 bg-gray-200 object-cover md:h-96 md:w-96">
                         <img
                           src={single.img}
                           alt="Boy"
@@ -59,7 +60,10 @@ export default function Testimonial() {
                   </div>
 
                   {/* Right Section */}
-                  <div className="space-y-3 text-[16px] text-zinc-400 sm:text-[18px]">
+                  <div className="h-full rounded-lg bg-blue-200 px-4 py-5 text-[16px] text-zinc-900 sm:text-[18px]">
+                    <span className="font-baijamjuree-bold text-2xl">
+                      {single.name}
+                    </span>
                     {/* Testimonial */}
                     <p className="font-bold leading-[30px]">
                       {single.testimonial}

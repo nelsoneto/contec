@@ -5,7 +5,7 @@ import contecLogo from '../assets/logo.svg'
 
 export function Navbar() {
   const Links = [
-    { id: 1, name: 'Quem somos?', link: '/' },
+    { id: 1, name: 'Quem somos?', link: '/about' },
     { id: 2, name: 'Soluções', link: '/' },
     { id: 3, name: 'Suporte', link: '/' },
   ]
