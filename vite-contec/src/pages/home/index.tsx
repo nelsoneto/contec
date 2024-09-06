@@ -1,5 +1,6 @@
-import { Header } from '../../components/Heeader'
-import { Hero } from '../../components/Hero'
+import { Body } from '../../components/Body'
+import { Footer } from '../../components/Footer'
+import { Header } from '../../components/Header'
 import { Navbar } from '../../components/Navbar'
 import Testimonial from '../../components/Testimonial'
 
@@ -8,15 +9,11 @@ export function Home() {
     <div className="min-h-screen w-full font-baijamjuree-regular">
       <Navbar />
       <Header />
-      <Hero />
-      <Testimonial />
-      <Testimonial />
+      {/* <Hero /> */}
+      <Body />
       <Testimonial />
       <div className="h-screen bg-blue-600"></div>
-      <div className="h-screen bg-blue-500 p-24">
-        <h1 className="font-roboto-regular text-2xl">Hello world</h1>
-      </div>
-      <div className="h-screen bg-blue-400"></div>
+      <Footer />
     </div>
   )
 }

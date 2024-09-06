@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         'custom-image': 'url(/src/assets/pexels-olly-864994.jpg)',
+        pattern: 'url(/src/assets/bg.png)',
       },
       fontFamily: {
         'roboto-regular': ['Roboto-Regular', 'sans-serif'],
