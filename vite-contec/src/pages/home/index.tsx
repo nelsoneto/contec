@@ -1,6 +1,7 @@
 import { Body } from '../../components/Body'
 import { Footer } from '../../components/Footer'
 import { Header } from '../../components/Header'
+import { Hero } from '../../components/Hero'
 import { Navbar } from '../../components/Navbar'
 
 export function Home() {
@@ -9,6 +10,7 @@ export function Home() {
       <Navbar />
       <Header />
       {/* <Hero /> */}
+      <Hero />
       <Body />
       <div className="h-screen bg-blue-600"></div>
       <Footer />

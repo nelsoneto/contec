@@ -42,7 +42,7 @@ export function Navbar() {
             <li key={link.id} className="my-7 py-2 md:my-0 md:ml-8">
               <a
                 href={link.link}
-                className="rounded-md border-2 border-transparent px-3 py-2 text-zinc-100 hover:border-blue-400 focus:border-blue-400 focus:outline-none"
+                className="rounded-md border border-transparent px-3 py-2 text-zinc-100 hover:border-blue-400 focus:border-blue-400 focus:outline-none"
               >
                 {link.name}
               </a>

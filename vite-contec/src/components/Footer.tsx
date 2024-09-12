@@ -19,7 +19,7 @@ export function Footer() {
           </span>
         </div>
         <div className="flex flex-col gap-2">
-          <span className="font-baijamjuree-bold">Navegue</span>
+          <span className="font-baijamjuree-bold">Seguimentos</span>
           <a href="">Lojas de confecções</a>
           <a href="">Supermercados</a>
           <a href="">Panificadoras</a>
