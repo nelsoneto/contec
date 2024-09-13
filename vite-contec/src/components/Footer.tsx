@@ -1,8 +1,8 @@
 import { Mail, MapPin, Phone } from 'lucide-react'
 export function Footer() {
   return (
-    <div>
-      <div className="grid min-h-full grid-cols-1 gap-8 bg-black px-10 py-16 sm:grid-cols-3 sm:justify-items-center xl:px-24 xl:py-32">
+    <div className="">
+      <div className="grid min-h-full grid-cols-1 gap-8 bg-slate-950 px-10 py-16 sm:grid-cols-3 sm:justify-items-center xl:px-24 xl:py-32">
         <div className="flex flex-col gap-3">
           <span className="font-baijamjuree-bold">Contato</span>
           <span className="flex items-center gap-4">
@@ -35,9 +35,12 @@ export function Footer() {
           <a href="">Produtos</a>
         </div>
       </div>
-      <div className="flex h-20 w-full items-center justify-center bg-slate-900 text-[12px] sm:text-sm">
-        © 2024 Contec Sistemas - Todos os direitos reservados
+      <div className="flex h-20 w-full items-center justify-center bg-slate-950 text-[12px] sm:text-sm">
+        <h1 className="">
+          © 2024 Contec Sistemas - Todos os direitos reservados
+        </h1>
       </div>
+      <div className="h-1.5 w-full bg-gradient-to-r from-teal-300 via-blue-400 to-blue-500"></div>
     </div>
   )
 }

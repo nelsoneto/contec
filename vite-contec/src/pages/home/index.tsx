@@ -12,7 +12,7 @@ export function Home() {
       {/* <Hero /> */}
       <Hero />
       <Body />
-      <div className="h-screen bg-blue-600"></div>
+      <div className="h-screen bg-slate-800"></div>
       <Footer />
     </div>
   )

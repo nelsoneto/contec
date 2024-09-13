@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-image': 'url(/src/assets/pexels-olly-864994.jpg)',
+        'custom-image': 'url(/src/assets/freepik-woman-bus.jpg)',
         pattern: 'url(/src/assets/bg.png)',
       },
       fontFamily: {
