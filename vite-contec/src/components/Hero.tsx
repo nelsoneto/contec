@@ -11,14 +11,17 @@ export function Hero() {
           </h1>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            iure, voluptate eum quos sunt cum minima saepe itaque dolores
-            molestias nemo aliquid exercitationem odit voluptatibus voluptates,
-            dignissimos neque. Non, itaque?
+            Aumente a produtividade ao automatizar rotinas dispendiosas da
+            administração, mostrando informações relevantes através de
+            relatórios gerenciais. Conta ainda com emissão de boletos bancários,
+            emissão de NF-e, NFC-e, SPED Fiscal e PIS/COFINS e muito mais.
           </p>
-          <button className="mb-6 rounded-lg bg-blue-600 px-4 py-3 text-base text-xl text-zinc-100 hover:bg-blue-800">
+          <a
+            href="/solutions"
+            className="mb-6 rounded-lg bg-blue-600 px-4 py-3 text-center text-xl text-zinc-100 hover:bg-blue-800"
+          >
             Saiba mais
-          </button>
+          </a>
         </div>
         <div className="h-auto w-auto rounded-lg bg-gradient-to-r from-blue-400 via-blue-600 to-sky-600 p-4 shadow-md ring-8 ring-sky-100">
           <img

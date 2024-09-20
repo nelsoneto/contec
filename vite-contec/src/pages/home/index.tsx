@@ -1,4 +1,5 @@
 import { Body } from '../../components/Body'
+import { Counter } from '../../components/Counter'
 import { Footer } from '../../components/Footer'
 import { Header } from '../../components/Header'
 import { Hero } from '../../components/Hero'
@@ -12,7 +13,7 @@ export function Home() {
       {/* <Hero /> */}
       <Hero />
       <Body />
-      <div className="h-screen bg-slate-800"></div>
+      <Counter />
       <Footer />
     </div>
   )

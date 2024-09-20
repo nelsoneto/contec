@@ -2,7 +2,9 @@ import {
   BrickWall,
   Coffee,
   Factory,
+  Handshake,
   Headset,
+  RefreshCcw,
   Shirt,
   ShoppingCart,
   Wrench,
@@ -89,40 +91,49 @@ export function Body() {
           </div>
         </div>
       </div>
-      <div className="h-auto w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 px-8 py-8 text-zinc-300 lg:px-60">
-        <div className="sm:flex sm:items-center sm:justify-around sm:gap-12">
-          <div className="flex h-52 w-80 flex-col items-center justify-center gap-8 text-center">
+      <div className="gap-10 bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 text-center text-zinc-300">
+        <div className="grid h-auto w-full grid-cols-1 justify-items-center gap-14 p-20 xl:grid-cols-3 xl:gap-8 xl:p-36">
+          <div className="flex h-auto w-auto flex-col items-center gap-4 text-center xl:w-80">
             <Headset className="h-10 w-10" />
             <div className="flex flex-col gap-2 font-baijamjuree-bold">
               <h2 className="text-2xl text-blue-300">Suporte</h2>
               <p className="">
-                Suporte técnico rápido e personalizado, sem limites de chamadas
-                e atendimento no local nas regiões.
+                Suporte técnico rápido e personalizado, sem limites de chamadas.
+                Nossa equipe estará pronto para o atendimento pelos canais
+                WhatsApp, Skype, E-mails e telefones.
               </p>
             </div>
           </div>
-          <div className="flex h-52 w-80 flex-col items-center justify-center gap-8 text-center">
-            <Headset className="h-10 w-10" />
+          <div className="flex h-auto w-auto flex-col items-center gap-4 text-center xl:w-80">
+            <RefreshCcw className="h-10 w-10" />
             <div className="flex flex-col gap-2 font-baijamjuree-bold">
-              <h2 className="text-2xl text-blue-300">Suporte</h2>
+              <h2 className="text-2xl text-blue-300">Atualizações</h2>
               <p className="">
-                Suporte técnico rápido e personalizado, sem limites de chamadas
-                e atendimento no local nas regiões.
+                Atualizações semanalmente com ajustes e melhoria de desempenho
+                para garantir que seu sistema esteja com a melhor usabilidade e
+                eficiência.
               </p>
             </div>
           </div>
-          <div className="flex h-52 w-80 flex-col items-center justify-center gap-8 text-center">
-            <Headset className="h-10 w-10" />
+          <div className="flex h-auto w-auto flex-col items-center gap-4 text-center xl:w-80">
+            <Handshake className="h-10 w-10" />
             <div className="flex flex-col gap-2 font-baijamjuree-bold">
-              <h2 className="text-2xl text-blue-300">Suporte</h2>
+              <h2 className="text-2xl text-blue-300">Proximidade</h2>
               <p className="">
-                Suporte técnico rápido e personalizado, sem limites de chamadas
-                e atendimento no local nas regiões.
+                Aqui você será atendido por pessoas qualificadas e com
+                atendimento humanizado, aberto e honesto com informações
               </p>
             </div>
           </div>
         </div>
       </div>
+
+      {/* <div className="flex w-full flex-col items-center justify-around p-16">
+        <h1 className="font-baijamjuree-bold text-4xl">BLOG</h1>
+        <div className="grid w-full justify-around gap-4 p-20 text-center xl:grid-cols-4">
+          <div className="h-96 w-80 border-2 border-cyan-300 p-20">1</div>
+        </div>
+      </div> */}
     </div>
   )
 }
