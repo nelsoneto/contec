@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        bannerImg: 'url(/images/freepik-woman-bus.jpg)',
+        pattern: 'url(/images/bg.png)',
+      },
       fontFamily: {
         sans: 'var(--font-roboto)',
         alt: 'var(--font-bai-jamjuree)',

@@ -1,4 +1,5 @@
-import { Header } from '@/components/Headers'
+import { Footer } from '@/components/Footer'
+import { Navbar } from '@/components/Navbar'
 import type { Metadata } from 'next'
 import {
   Bai_Jamjuree as BaiJamjuree,
@@ -27,10 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <body className={`${roboto.variable} ${baiJamjuree.variable} font-sans`}>
-        <main className="h-screen">
-          <Header />
+        <main className="">
+          <Navbar />
           {/* <Slider /> */}
           {children}
+          <Footer />
         </main>
       </body>
     </html>
