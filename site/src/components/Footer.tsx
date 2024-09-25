@@ -3,11 +3,11 @@ export function Footer() {
   return (
     <div className="absolute max-h-full w-full">
       <div className="grid grid-cols-1 gap-8 bg-slate-950 px-10 py-16 xl:grid-cols-3 xl:justify-items-center xl:px-24 xl:py-32">
-        <div className="flex flex-col gap-3">
+        <div className="flex w-60 flex-col gap-3">
           <span className="font-alt">Contato</span>
           <span className="flex items-center gap-4">
             <MapPin className="" />{' '}
-            <p className="text-sm">Rua Jacundá 4284 - Ariquemes Rondônia.</p>
+            <p className="text-sm">Rua Jacundá 4284 Ariquemes Rondônia.</p>
           </span>
           <span className="flex items-center gap-4">
             <Phone className="" />

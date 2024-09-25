@@ -14,8 +14,8 @@ export function Body() {
   return (
     <div className="h-auto">
       <div className="h-auto bg-slate-900 text-zinc-300">
-        <div className="bg-pattern flex h-full w-full flex-col items-center space-y-2 bg-center bg-no-repeat px-6 py-8 xl:px-60 xl:py-10">
-          <div className="font-baijamjuree-bold flex flex-col gap-10 text-left md:px-10 md:text-center">
+        <div className="flex h-full w-full flex-col items-center space-y-2 bg-pattern bg-center bg-no-repeat px-6 py-8 xl:px-60 xl:py-10">
+          <div className="flex flex-col gap-10 text-left font-alt md:px-10 md:text-center">
             <h1 className="text-3xl md:text-5xl">
               Conheça nosso softwares e os diversos segmentos que eles oferecem
               soluções:
