@@ -3,7 +3,7 @@ export default function PageMidasHero() {
     <>
       <div className="flex w-auto flex-col space-y-8 bg-slate-800 py-4 xl:px-72">
         <div className="flex flex-col items-center justify-center px-10 py-4">
-          <h2 className="mt-6 font-alt text-4xl">
+          <h2 className="mt-6 font-alt text-3xl xl:text-4xl">
             Conheça as características técnicas do{' '}
             <span className="text-blue-400">MIDAS</span>
           </h2>

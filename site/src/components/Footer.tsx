@@ -5,17 +5,19 @@ export function Footer() {
       <div className="grid grid-cols-1 gap-8 bg-slate-950 px-10 py-16 xl:grid-cols-3 xl:justify-items-center xl:px-24 xl:py-32">
         <div className="flex w-60 flex-col gap-3">
           <span className="font-alt">Contato</span>
-          <span className="flex items-center gap-4">
-            <MapPin className="" />{' '}
-            <p className="text-sm">Rua Jacundá 4284 Ariquemes Rondônia.</p>
+          <span className="flex-1 items-center gap-4 md:flex">
+            <MapPin className="h-3 w-3 md:h-4 md:w-4" />{' '}
+            <p className="w-36 text-xs md:text-sm">
+              Rua Jacundá 4284 Ariquemes Rondônia.
+            </p>
           </span>
-          <span className="flex items-center gap-4">
-            <Phone className="" />
-            <p className="text-sm">(69)3535-6826</p>
+          <span className="flex-1 items-center gap-4 md:flex">
+            <Phone className="h-3 w-3 md:h-4 md:w-4" />
+            <p className="text-xs md:text-sm">(69)3535-6826</p>
           </span>
-          <span className="flex items-center gap-4">
-            <Mail className="h-5 w-5" />
-            <p className="text-sm">contato@contecsistemas.com.br</p>
+          <span className="flex-1 items-center gap-4 md:flex">
+            <Mail className="h-3 w-3 md:h-4 md:w-4" />
+            <p className="text-xs md:text-sm">contato@contecsistemas.com.br</p>
           </span>
         </div>
         <div className="flex flex-col gap-2">
@@ -36,7 +38,7 @@ export function Footer() {
         </div>
       </div>
       <div className="flex h-20 w-full items-center justify-center bg-slate-950 text-[12px] sm:text-sm">
-        <h1 className="">
+        <h1 className="text-center">
           © 2024 Contec Sistemas - Todos os direitos reservados
         </h1>
       </div>
