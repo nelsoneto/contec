@@ -71,7 +71,7 @@ export default function PageMidasHero() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-slate-700"></div>
+        <div className="border-t border-slate-700" />
       </div>
     </>
   )

@@ -1,6 +1,7 @@
 import PageMidasBody from './PageMidasBody'
 import PageMidasHeader from './PageMidasHeader'
 import PageMidasHero from './PageMidasHero'
+import { SettingsTabs } from './SettingsTabs'
 
 export default function pageMidas() {
   return (
@@ -8,6 +9,7 @@ export default function pageMidas() {
       <PageMidasHeader />
       <PageMidasHero />
       <PageMidasBody />
+      <SettingsTabs />
     </div>
   )
 }
