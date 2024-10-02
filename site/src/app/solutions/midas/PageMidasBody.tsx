@@ -3,6 +3,7 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from '@headlessui/react'
+
 import Image from 'next/image'
 import img2 from '../../../../public/images/perguntas.jpg'
 

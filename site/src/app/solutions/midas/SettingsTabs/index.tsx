@@ -3,6 +3,9 @@ import * as Tabs from '@radix-ui/react-tabs'
 import { useState } from 'react'
 import { TabItem } from './TabItem'
 
+import Image from 'next/image'
+import cadastroImg from '../../../../../public/images/Cadastro.png'
+
 export function SettingsTabs() {
   const [currentTab, setCurrentTab] = useState('tab1')
 
@@ -10,7 +13,7 @@ export function SettingsTabs() {
     <Tabs.Root
       value={currentTab}
       onValueChange={setCurrentTab}
-      className="h-screen w-full py-4"
+      className="h-screen w-full py-10"
       defaultValue="tab1"
     >
       <Tabs.List className="flex justify-center gap-4" aria-label="Categoria">
@@ -58,8 +61,22 @@ export function SettingsTabs() {
         className="flex flex-col items-center justify-center"
         value="tab1"
       >
-        <span>tab1</span>
+        <div className="grid grid-cols-2 py-10">
+          <div className="flex items-center justify-center px-10">
+            <ul className="list-disc">
+              <li>oaskoasdkfoaskdf</li>
+              <li>oaskoasdkfoaskdf</li>
+              <li>oaskoasdkfoaskdf</li>
+              <li>oaskoasdkfoaskdf</li>
+              <li>oaskoasdkfoaskdf</li>
+            </ul>
+          </div>
+          <div className="flex w-full justify-start bg-slate-500 px-10">
+            <Image src={cadastroImg} alt="Cadastro de Pessoas" className="" />
+          </div>
+        </div>
       </Tabs.Content>
+
       <Tabs.Content
         className="flex flex-col items-center justify-center"
         value="tab2"
