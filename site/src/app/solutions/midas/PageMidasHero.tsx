@@ -8,7 +8,7 @@ export default function PageMidasHero() {
             <span className="text-blue-400">MIDAS</span>
           </h2>
         </div>
-        <div className="grid h-full w-full xl:grid-cols-2">
+        <div className="grid h-full w-full text-lg xl:grid-cols-2">
           <div className="w-full py-2 text-justify">
             <ul className="list-disc px-8">
               <li className="font-alt text-blue-400">Controle financeiro</li>{' '}
@@ -71,7 +71,7 @@ export default function PageMidasHero() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-slate-700" />
+        <div className="border-t-2 border-slate-700" />
       </div>
     </>
   )
