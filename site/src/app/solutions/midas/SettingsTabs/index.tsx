@@ -5,11 +5,15 @@ import { TabItem } from './TabItem'
 
 import Image from 'next/image'
 import cadastroImg from '../../../../../public/images/Cadastro.png'
+import centralImg from '../../../../../public/images/Central.png'
+import entradaImg from '../../../../../public/images/Entrada.png'
 import nfeImg from '../../../../../public/images/NFe.png'
 import nfseImg from '../../../../../public/images/NSFe.png'
 import osImg from '../../../../../public/images/OS.png'
 import pdvImg from '../../../../../public/images/PDV.png'
 import produtoImg from '../../../../../public/images/Produto.png'
+import relatoriosImg from '../../../../../public/images/Relatorios.png'
+import transformacaoImg from '../../../../../public/images/Transformacao.png'
 import vendasImg from '../../../../../public/images/Vendas.png'
 
 export function SettingsTabs() {
@@ -17,13 +21,13 @@ export function SettingsTabs() {
 
   return (
     <>
-      <div className="w-full bg-slate-800 px-72">
+      {/* <div className="w-full bg-slate-800">
         <div className="w-auto border-t-2 border-slate-700" />
-      </div>
+      </div> */}
       <Tabs.Root
         value={currentTab}
         onValueChange={setCurrentTab}
-        className="h-auto w-full bg-slate-800 py-10"
+        className="h-auto w-full bg-slate-900 py-10"
         defaultValue="tab1"
       >
         <Tabs.List className="flex justify-center gap-4" aria-label="Categoria">
@@ -64,7 +68,7 @@ export function SettingsTabs() {
           />
           <TabItem
             value="tab8"
-            title="Financeiro"
+            title="Central de Caixa"
             isSelected={currentTab === 'tab8'}
           />
           <TabItem
@@ -76,6 +80,11 @@ export function SettingsTabs() {
             value="tab10"
             title="Relatórios"
             isSelected={currentTab === 'tab10'}
+          />
+          <TabItem
+            value="tab11"
+            title="Industrialização"
+            isSelected={currentTab === 'tab11'}
           />
         </Tabs.List>
 
@@ -288,20 +297,106 @@ export function SettingsTabs() {
           value="tab8"
         >
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
-            Nota Fiscal de Serviço
+            Cetral de Caixa
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
               <ul className="list-disc text-2xl">
-                <li>Emissão de NFS-e simplificado</li>
-                <li>Configuração de tributação e retenção</li>
-                <li>Integração com portal municipio</li>
-                <li>Cancelamento de NFS-e simplificado</li>
+                <li>Fechamento de pedido pre-venda e orçamento</li>
+                <li>Lançamento de sangria e suprimento</li>
+                <li>Emissão de NFC-e e NF-e</li>
+                <li>Fechamento e reabrimento de caixa</li>
+                <li>Movimentação de estoque</li>
+                <li>Movimentação financeiro</li>
               </ul>
             </div>
             <div className="flex size-auto w-full justify-end px-10">
               <Image
-                src={nfseImg}
+                src={centralImg}
+                alt="Cadastro de Pessoas"
+                className="rounded-md border-8 border-slate-500"
+              />
+            </div>
+          </div>
+        </Tabs.Content>
+        <Tabs.Content
+          className="flex flex-col items-center justify-center"
+          value="tab9"
+        >
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+            Entradas / Compras
+          </span>
+          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+            <div className="flex items-center justify-center px-10">
+              <ul className="list-disc text-2xl">
+                <li>Importação de XML</li>
+                <li>Download de XML</li>
+                <li>Manifestar NF-e</li>
+                <li>Conversor de unidade</li>
+                <li>Atualização de custo e preço de venda</li>
+                <li>Movimentação financeiro</li>
+                <li>Movimentação de estoque</li>
+                <li>ICMS-ST</li>
+              </ul>
+            </div>
+            <div className="flex size-auto w-full justify-end px-10">
+              <Image
+                src={entradaImg}
+                alt="Cadastro de Pessoas"
+                className="rounded-md border-8 border-slate-500"
+              />
+            </div>
+          </div>
+        </Tabs.Content>
+        <Tabs.Content
+          className="flex flex-col items-center justify-center"
+          value="tab10"
+        >
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+            Relatórios
+          </span>
+          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+            <div className="flex items-center justify-center px-10">
+              <ul className="list-disc text-2xl">
+                <li>Movimento e giro de produtos</li>
+                <li>Movimentação de caixa</li>
+                <li>Contas a pagar / receber</li>
+                <li>Margem de lucro por venda</li>
+                <li>DRE</li>
+                <li>Curva ABC</li>
+                <li>Inventário</li>
+                <li>Sugestão de preço, compra e produção</li>
+              </ul>
+            </div>
+            <div className="flex size-auto w-full justify-end px-10">
+              <Image
+                src={relatoriosImg}
+                alt="Cadastro de Pessoas"
+                className="rounded-md border-8 border-slate-500"
+              />
+            </div>
+          </div>
+        </Tabs.Content>
+        <Tabs.Content
+          className="flex flex-col items-center justify-center"
+          value="tab11"
+        >
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+            Relatórios
+          </span>
+          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+            <div className="flex items-center justify-center px-10">
+              <ul className="list-disc text-2xl">
+                <li>Cadastro de matéria prima e produto acabado</li>
+                <li>Tabela de custos</li>
+                <li>Movimentação de estoque</li>
+                <li>Sugestão de produção</li>
+                <li>Relatório demonstrativo</li>
+              </ul>
+            </div>
+            <div className="flex size-auto w-full justify-end px-10">
+              <Image
+                src={transformacaoImg}
                 alt="Cadastro de Pessoas"
                 className="rounded-md border-8 border-slate-500"
               />
