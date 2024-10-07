@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <section className="bg-bannerImg relative h-auto w-auto bg-cover bg-center px-10 py-32 xl:h-screen xl:px-60 xl:py-64">
+    <section className="relative h-auto w-auto bg-bannerImg bg-cover bg-center px-10 py-32 xl:h-screen xl:px-60 xl:py-64">
       <div className="grid w-full grid-cols-2 items-center justify-center gap-7 rounded-lg px-4 py-4">
         <div className="items-center justify-center gap-10 text-balance rounded-lg">
           <div className="w-48 rounded-md px-2 font-alt text-2xl text-cyan-300 sm:w-auto sm:py-28 sm:text-4xl lg:text-6xl">

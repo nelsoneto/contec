@@ -12,6 +12,7 @@ export default function Home() {
         <Hero />
         <Body />
         <Counter />
+
         {/* <InputRoot>
           <InputPrefix>
             <Search className="h-5 w-5 text-zinc-500" />
