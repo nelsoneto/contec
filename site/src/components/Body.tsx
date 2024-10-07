@@ -17,8 +17,8 @@ export function Body() {
         <div className="flex h-full w-full flex-col items-center space-y-2 bg-pattern bg-center bg-no-repeat px-6 py-8 xl:px-60 xl:py-10">
           <div className="flex flex-col gap-10 text-left font-alt md:px-10 md:text-center">
             <h1 className="text-3xl md:text-5xl">
-              Conheça nosso softwares e os diversos segmentos que eles oferecem
-              soluções:
+              Conheça nosso software e as soluções que oferecemos em diversos
+              segmentos:
             </h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
