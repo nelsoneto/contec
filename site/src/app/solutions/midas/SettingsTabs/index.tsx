@@ -30,7 +30,10 @@ export function SettingsTabs() {
         className="h-auto w-full bg-slate-900 py-10"
         defaultValue="tab1"
       >
-        <Tabs.List className="flex justify-center gap-4" aria-label="Categoria">
+        <Tabs.List
+          className="grid gap-2 px-2 sm:grid-cols-2 xl:grid-cols-9"
+          aria-label="Categoria"
+        >
           <TabItem
             value="tab1"
             title="Cadastros"
@@ -92,7 +95,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center py-4"
           value="tab1"
         >
-          <span className="mt-4 bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="mt-4 bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Cadastro de Pessoas
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -125,7 +128,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab2"
         >
-          <span className="bg-gradient-to-r from-cyan-500 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-cyan-500 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Produtos / Serviços
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -157,7 +160,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab3"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Saídas / Vendas
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -188,7 +191,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab4"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Ordem de Serviço
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -215,7 +218,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab5"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Ponto de Vendas
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -241,7 +244,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab6"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Nota Fiscal Eletrônica
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -271,7 +274,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab7"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Nota Fiscal de Serviço
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -296,7 +299,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab8"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Cetral de Caixa
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -323,7 +326,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab9"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Entradas / Compras
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -352,7 +355,7 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab10"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Relatórios
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
@@ -381,8 +384,8 @@ export function SettingsTabs() {
           className="flex flex-col items-center justify-center"
           value="tab11"
         >
-          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-3xl text-transparent">
-            Relatórios
+          <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
+            Industrialização
           </span>
           <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">

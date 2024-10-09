@@ -9,6 +9,7 @@ import {
   ShoppingCart,
   Wrench,
 } from 'lucide-react'
+import Link from 'next/link'
 
 export function Body() {
   return (
@@ -20,73 +21,67 @@ export function Body() {
               Conheça nosso software e as soluções que oferecemos em diversos
               segmentos:
             </h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              excepturi asperiores quasi temporibus fugiat nemo perspiciatis
-              tenetur, dolores quo delectus est nulla quod alias magnam enim
-              modi fuga eos expedita?
-            </p>
           </div>
 
           <div className="font-baijamjuree-bold grid justify-center gap-8 px-4 py-14 text-center sm:grid-cols-2 md:text-lg xl:grid-cols-3">
             <div className="rounded-lg border-2 border-blue-400/10 px-10 py-8 shadow-md shadow-sky-800/50 hover:border-2 hover:border-sky-500/70">
-              <a
-                href="/solutions"
+              <Link
+                href="/solutions/midas"
                 className="flex flex-col items-center justify-center gap-6"
               >
                 CONFECÇÕES
                 <Shirt className="h-8 w-8 md:h-16 md:w-16" />
-              </a>
+              </Link>
             </div>
 
             <div className="rounded-lg border-2 border-blue-400/10 px-10 py-8 shadow-md shadow-sky-800/50 hover:border-2 hover:border-sky-500/70">
-              <a
-                href="/solutions"
+              <Link
+                href="/solutions/midas"
                 className="flex flex-col items-center justify-center gap-6"
               >
                 SUPERMERCADOS
                 <ShoppingCart className="h-8 w-8 md:h-16 md:w-16" />
-              </a>
+              </Link>
             </div>
 
             <div className="rounded-lg border-2 border-blue-400/10 px-10 py-8 shadow-md shadow-sky-800/50 hover:border-2 hover:border-sky-500/70">
-              <a
-                href="/solutions"
+              <Link
+                href="/solutions/midas"
                 className="flex flex-col items-center justify-center gap-6"
               >
                 PANIFICADORAS
                 <Coffee className="h-8 w-8 md:h-16 md:w-16" />
-              </a>
+              </Link>
             </div>
 
             <div className="rounded-lg border-2 border-blue-400/10 px-10 py-8 shadow-md shadow-sky-800/50 hover:border-2 hover:border-sky-500/70">
-              <a
-                href="/solutions"
+              <Link
+                href="/solutions/midas"
                 className="flex flex-col items-center justify-center gap-6"
               >
                 OFICINAS
                 <Wrench className="h-8 w-8 md:h-16 md:w-16" />
-              </a>
+              </Link>
             </div>
 
             <div className="rounded-lg border-2 border-blue-400/10 px-10 py-8 shadow-md shadow-sky-800/50 hover:border-2 hover:border-sky-500/70">
-              <a
-                href="/solutions"
+              <Link
+                href="/solutions/midas"
                 className="flex flex-col items-center justify-center gap-6"
               >
                 MATERIAIS PARA CONSTRUÇÕES
                 <BrickWall className="h-8 w-8 md:h-16 md:w-16" />
-              </a>
+              </Link>
             </div>
 
             <div className="rounded-lg border-2 border-blue-400/10 px-10 py-8 shadow-md shadow-sky-800/50 hover:border-2 hover:border-sky-500/70">
-              <a
-                href="/solutions"
+              <Link
+                href="/solutions/midas"
                 className="flex flex-col items-center justify-center gap-6"
               >
                 INDUSTRIAS
                 <Factory className="h-8 w-8 md:h-16 md:w-16" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

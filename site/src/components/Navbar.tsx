@@ -4,13 +4,14 @@ import { useState } from 'react'
 
 import { Dropdown } from '@/components/Dropdown'
 import Image from 'next/image'
+import Link from 'next/link'
 import contecLogo from '../../public/images/logo.svg'
 
 export function Navbar() {
   const Links = [
     { id: 1, name: 'Inicio', link: '/' },
     { id: 2, name: 'Blog', link: '/' },
-    { id: 3, name: 'Suporte', link: '/' },
+    { id: 3, name: 'Suporte', link: '/suport' },
   ]
   const [open, setOpen] = useState(false)
 
@@ -18,7 +19,10 @@ export function Navbar() {
     <div className="fixed left-0 top-0 z-50 w-full font-alt shadow-md">
       <div className="items-center justify-between bg-slate-800 px-8 py-4 md:flex 2xl:px-64">
         {/* logo section */}
-        <div className="flex cursor-pointer items-center gap-1 text-2xl font-bold">
+        <Link
+          href="/"
+          className="flex cursor-pointer items-center gap-1 text-2xl font-bold"
+        >
           <Image
             src={contecLogo}
             alt="Contec Sistemas"
@@ -27,7 +31,7 @@ export function Navbar() {
           <span className="max-w-0 overflow-hidden text-nowrap px-2 text-xl lg:max-w-56">
             <span className="pl-4 text-slate-200 lg:pl-0">CONTEC SISTEMAS</span>
           </span>
-        </div>
+        </Link>
 
         {/* Menu icon */}
         <div

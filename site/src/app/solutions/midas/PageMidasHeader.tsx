@@ -4,7 +4,7 @@ import erpImg from '../../../../public/images/Midas-menu.png'
 export default function PageMidasHeader() {
   return (
     <div className="gap-2 text-pretty xl:flex-col">
-      <div className="mt-16 flex h-full w-full justify-center gap-4 bg-gradient-to-r from-blue-900 via-sky-700 to-emerald-700 py-4">
+      <div className="mt-16 flex h-full w-full justify-center gap-4 bg-gradient-to-r from-blue-900 via-sky-700 to-blue-900 py-4">
         <h1 className="bg-gradient-to-r from-cyan-300 via-sky-400 to-blue-300 bg-clip-text px-1 font-alt text-6xl text-transparent">
           MIDAS
         </h1>
@@ -25,7 +25,7 @@ export default function PageMidasHeader() {
           />
         </div>
       </div>
-      <div className="w-auto bg-gradient-to-r from-emerald-700 via-sky-700 to-blue-900 p-4 xl:px-72">
+      <div className="w-auto bg-gradient-to-r from-blue-900 via-cyan-700 to-blue-900 p-4 xl:px-72">
         <h1 className="mb-4 font-alt text-2xl xl:text-center xl:text-4xl">
           Simples de operar, tornando as vendas de balcões em atendimento
           rápido, prático, eficiente e seguro.

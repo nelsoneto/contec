@@ -5,9 +5,9 @@ import {
 } from '@headlessui/react'
 
 import Image from 'next/image'
-import img2 from '../../../../public/images/perguntas.jpg'
+import img2 from '../../../public/images/perguntas.jpg'
 
-export default function PageMidasBody() {
+export default function PagePerguntas() {
   return (
     <>
       <h2 className="flex justify-center bg-slate-800 py-6 font-alt text-3xl text-blue-400">
