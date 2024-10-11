@@ -4,7 +4,7 @@ export function Footer() {
     <div className="absolute max-h-full w-full">
       <div className="grid grid-cols-1 gap-8 bg-slate-950 px-10 py-16 xl:grid-cols-3 xl:justify-items-center xl:px-24 xl:py-32">
         <div className="flex flex-col gap-3">
-          <h1 className="font-alt">Contato</h1>
+          <h1 className="font-alt text-blue-400">Contato</h1>
           <span className="flex-1 items-center gap-4 md:flex">
             <MapPin className="h-3 w-3 md:h-4 md:w-4" />{' '}
             <p className="w-36 text-xs md:text-sm">
@@ -39,7 +39,7 @@ export function Footer() {
           </span>
         </div>
         <div className="flex flex-col gap-2">
-          <span className="font-alt">Seguimentos</span>
+          <span className="font-alt text-blue-400">Seguimentos</span>
           <a href="/solutions/midas">Lojas de confecções</a>
           <a href="/solutions/midas">Supermercados</a>
           <a href="/solutions/midas">Panificadoras</a>
@@ -48,7 +48,7 @@ export function Footer() {
           <a href="/solutions/midas">Industrias</a>
         </div>
         <div className="flex flex-col gap-2">
-          <span className="font-alt">Navegue</span>
+          <span className="font-alt text-blue-400">Navegue</span>
           <a href="/">Inicio</a>
           <a href="/">Blog</a>
           <a href="/">Suporte</a>
