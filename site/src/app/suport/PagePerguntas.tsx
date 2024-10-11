@@ -11,7 +11,7 @@ import img2 from '../../../public/images/perguntas.jpg'
 export default function PagePerguntas() {
   return (
     <>
-      <h2 className="flex justify-center bg-slate-800 py-6 font-alt text-3xl text-blue-400">
+      <h2 className="flex justify-center bg-slate-800 pt-14 font-alt text-2xl text-blue-400 md:text-3xl">
         Perguntas Frequentes:
       </h2>
       <div className="grid w-full items-center justify-center bg-slate-800 py-10 xl:grid-cols-2 xl:px-80">
@@ -19,7 +19,7 @@ export default function PagePerguntas() {
           <Image
             src={img2}
             alt="Perguntas frequentes"
-            className="relative h-96 w-96 rounded-md border-8 border-slate-400 object-cover"
+            className="relative hidden h-96 w-96 rounded-md border-8 border-slate-400 object-cover md:flex"
           />
         </div>
         <div className="mb-4 px-10 font-alt text-xl">

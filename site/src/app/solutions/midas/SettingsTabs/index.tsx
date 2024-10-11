@@ -98,9 +98,9 @@ export function SettingsTabs() {
           <span className="mt-4 bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Cadastro de Pessoas
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>
                   Cadastro de funcionários, usuários, clientes e fornecedores
                 </li>
@@ -131,9 +131,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-cyan-500 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Produtos / Serviços
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Cadastro de produtos e serviços</li>
                 <li>Consulta de GTIN (Código de barras)</li>
                 <li>Controle de seção, marca, modelo, cor e tamanho</li>
@@ -163,9 +163,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Saídas / Vendas
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Prazo de pagamento</li>
                 <li>Parcelamento personalizado</li>
                 <li>Tabela de preço</li>
@@ -194,9 +194,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Ordem de Serviço
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Lançamento de produtos e serviços</li>
                 <li>Cadastro e acompanhamento de objeto</li>
                 <li>Movimentação de estoque e financeiro</li>
@@ -221,9 +221,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Ponto de Vendas
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Emissão de NFC-e</li>
                 <li>Abertura e fechamento de caixa por turno</li>
                 <li>Integração com TEF</li>
@@ -247,9 +247,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Nota Fiscal Eletrônica
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Emissão de NF-e</li>
                 <li>Nota conjugada com produtos e serviços</li>
                 <li>Nota de devolução e remessa</li>
@@ -277,9 +277,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Nota Fiscal de Serviço
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Emissão de NFS-e simplificado</li>
                 <li>Configuração de tributação e retenção</li>
                 <li>Integração com portal municipio</li>
@@ -302,9 +302,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Cetral de Caixa
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Fechamento de pedido pre-venda e orçamento</li>
                 <li>Lançamento de sangria e suprimento</li>
                 <li>Emissão de NFC-e e NF-e</li>
@@ -329,9 +329,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Entradas / Compras
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Importação de XML</li>
                 <li>Download de XML</li>
                 <li>Manifestar NF-e</li>
@@ -358,9 +358,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Relatórios
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Movimento e giro de produtos</li>
                 <li>Movimentação de caixa</li>
                 <li>Contas a pagar / receber</li>
@@ -387,9 +387,9 @@ export function SettingsTabs() {
           <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-emerald-300 bg-clip-text px-1 font-alt text-2xl text-transparent sm:text-3xl">
             Industrialização
           </span>
-          <div className="grid gap-4 py-10 xl:grid-cols-2 xl:px-32">
+          <div className="grid gap-10 py-10 xl:grid-cols-2 xl:px-32">
             <div className="flex items-center justify-center px-10">
-              <ul className="list-disc text-2xl">
+              <ul className="list-inside list-disc text-base md:text-xl">
                 <li>Cadastro de matéria prima e produto acabado</li>
                 <li>Tabela de custos</li>
                 <li>Movimentação de estoque</li>
