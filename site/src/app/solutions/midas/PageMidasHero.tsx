@@ -16,8 +16,8 @@ export default function PageMidasHero() {
               </li>{' '}
               <p className="mb-5 px-4">
                 Renegociações, fluxo de caixa, gestão de contas a pagar e a
-                receber, grupos de receitas e despesas, cenro de custo, controle
-                de comissões e vendas.
+                receber, grupos de receitas e despesas, centro de custo,
+                controle de comissões e vendas.
               </p>
               <li className="px-4 font-alt uppercase text-blue-400 xl:px-0">
                 Estoque
@@ -45,7 +45,7 @@ export default function PageMidasHero() {
                 Produção
               </li>
               <p className="mb-5 px-4">
-                Cadastro de receitas para produtos idustrializado com baixa
+                Cadastro de receitas para produtos industrializados com baixa
                 automática de insumos na produção.
               </p>
               <li className="px-4 font-alt uppercase text-blue-400 xl:px-0">
@@ -77,7 +77,7 @@ export default function PageMidasHero() {
               </li>
               <p className="mb-5 px-4">
                 Agendamento de serviços com geração de ordem de serviços.
-                Agedamento de cobrança com emissão de cobrança.
+                Agendamento de cobrança com emissão de cobrança.
               </p>
               <li className="px-4 font-alt uppercase text-blue-400 xl:px-0">
                 Força de Vendas

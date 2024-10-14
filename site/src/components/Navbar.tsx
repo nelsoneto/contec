@@ -17,26 +17,22 @@ export function Navbar() {
 
   return (
     <div className="fixed left-0 top-0 z-50 w-full font-alt shadow-md">
-      <div className="items-center justify-between bg-slate-800 px-8 py-4 md:flex 2xl:px-64">
+      <div className="items-center justify-between bg-slate-800 px-8 py-2 md:flex 2xl:px-64">
         {/* logo section */}
         <Link
           href="/"
           className="flex cursor-pointer items-center gap-1 text-2xl font-bold"
         >
-          <Image
-            src={contecLogo}
-            alt="Contec Sistemas"
-            className="h-auto w-auto"
-          />
+          <Image src={contecLogo} alt="Contec Sistemas" className="h-8 w-8" />
           <span className="max-w-0 overflow-hidden text-nowrap px-2 text-xl lg:max-w-56">
-            <span className="pl-4 text-slate-200 lg:pl-0">CONTEC SISTEMAS</span>
+            <span className="pl-6 text-slate-200 lg:pl-0">CONTEC SISTEMAS</span>
           </span>
         </Link>
 
         {/* Menu icon */}
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 h-7 w-7 cursor-pointer py-0 md:hidden"
+          className="absolute right-8 top-3 h-7 w-7 cursor-pointer md:hidden"
         >
           {open ? <X /> : <Menu />}
         </div>

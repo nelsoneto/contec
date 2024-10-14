@@ -4,8 +4,8 @@ import erpImg from '../../../../public/images/Midas-menu.png'
 export default function PageMidasHeader() {
   return (
     <div className="gap-2 text-pretty xl:flex-col">
-      <div className="mt-16 flex h-full w-full justify-center gap-4 bg-gradient-to-r from-blue-900 via-sky-700 to-blue-900 py-4">
-        <h1 className="bg-gradient-to-r from-cyan-300 via-sky-400 to-blue-300 bg-clip-text px-1 font-alt text-6xl text-transparent">
+      <div className="mt-12 flex h-full w-full justify-center gap-4 bg-gradient-to-r from-blue-900 via-sky-700 to-blue-900 py-4 xl:mt-14">
+        <h1 className="bg-gradient-to-r from-cyan-300 via-sky-400 to-blue-300 bg-clip-text px-1 font-alt text-4xl text-transparent md:text-6xl">
           MIDAS
         </h1>
         <h2 className="hidden items-center justify-center text-center font-alt text-4xl xl:flex">
