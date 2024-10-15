@@ -1,10 +1,10 @@
 export function Header() {
   return (
-    <section className="relative mt-9 h-auto w-auto bg-pattern bg-cover bg-center px-4 py-32 md:bg-bannerImg xl:h-screen xl:px-60 xl:py-64">
+    <section className="bg-stars relative mt-9 h-auto w-auto bg-cover bg-center px-4 py-32 md:bg-bannerImg xl:h-screen xl:px-60 xl:py-64">
       <div className="w-full items-center justify-center gap-7 rounded-lg md:grid md:grid-cols-2">
         <div className="items-center justify-center gap-10 text-balance rounded-lg">
-          <div className="w-auto rounded-md text-center font-alt text-4xl text-cyan-300 md:text-start md:text-5xl xl:py-28 xl:text-6xl">
-            <h1 className="text-sky-500">
+          <div className="w-auto rounded-md text-center font-alt text-4xl md:text-start md:text-5xl xl:py-28 xl:text-6xl">
+            <h1 className="text-sky-500 xl:text-sky-500">
               <span className="">Transforme</span> sua gestão com nossas
               soluções que impulsionam resultados e eficiência.
             </h1>

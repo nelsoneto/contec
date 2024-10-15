@@ -11,6 +11,7 @@ const config: Config = {
       backgroundImage: {
         bannerImg: 'url(/images/freepik-woman-bus.jpg)',
         pattern: 'url(/images/bg.png)',
+        stars: 'url(/images/smart-technology.jpg)',
       },
       fontFamily: {
         sans: 'var(--font-roboto)',
