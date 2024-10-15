@@ -2,14 +2,12 @@ import { Mail, MapPin, Phone } from 'lucide-react'
 export function Footer() {
   return (
     <div className="absolute max-h-full w-full">
-      <div className="grid grid-cols-1 gap-8 bg-slate-950 px-10 py-16 xl:grid-cols-3 xl:justify-items-center xl:px-24 xl:py-32">
+      <div className="grid grid-cols-1 gap-8 bg-slate-950 px-4 py-16 xl:grid-cols-3 xl:justify-items-center xl:px-24 xl:py-32">
         <div className="flex flex-col gap-3">
           <h1 className="font-alt text-blue-400">Contato</h1>
           <span className="flex-1 items-center gap-4 md:flex">
             <MapPin className="h-3 w-3 md:h-4 md:w-4" />{' '}
-            <p className="w-36 text-xs md:text-sm">
-              Rua Jacundá 4284 Ariquemes Rondônia.
-            </p>
+            <p className="w-36 text-sm">Rua Jacundá 4284 Ariquemes Rondônia.</p>
           </span>
           <span className="flex-1 items-center gap-4 md:flex">
             <Phone className="h-3 w-3 md:h-4 md:w-4" />
@@ -17,7 +15,7 @@ export function Footer() {
               href="https://wa.me/556999705453"
               rel="noopener noreferrer"
               target="_blank"
-              className="text-xs md:text-sm"
+              className="text-sm"
             >
               (69)99970-5457 - Suporte
             </a>
@@ -28,14 +26,14 @@ export function Footer() {
               href="https://wa.me/556935356826 "
               rel="noopener noreferrer"
               target="_blank"
-              className="text-xs md:text-sm"
+              className="text-sm"
             >
               (69)3535-6826 - Financeiro
             </a>
           </span>
           <span className="flex-1 items-center gap-4 md:flex">
             <Mail className="h-3 w-3 md:h-4 md:w-4" />
-            <p className="text-xs md:text-sm">contato@contecsistemas.com.br</p>
+            <p className="text-sm">contato@contecsistemas.com.br</p>
           </span>
         </div>
         <div className="flex flex-col gap-2">

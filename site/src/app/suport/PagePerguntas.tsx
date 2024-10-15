@@ -14,7 +14,7 @@ export default function PagePerguntas() {
       <h2 className="flex justify-center bg-slate-800 pt-14 font-alt text-2xl text-blue-400 md:text-3xl">
         Perguntas Frequentes:
       </h2>
-      <div className="grid w-full items-center justify-center bg-slate-800 py-10 xl:grid-cols-2 xl:px-80">
+      <div className="grid w-full items-center justify-center bg-slate-800 px-1 py-10 xl:grid-cols-2 xl:px-80">
         <div className="mb-4 flex items-center justify-center">
           <Image
             src={img2}

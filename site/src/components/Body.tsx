@@ -15,15 +15,15 @@ export function Body() {
   return (
     <div className="h-auto">
       <div className="h-auto bg-slate-900 text-zinc-300">
-        <div className="flex h-full w-full flex-col items-center space-y-2 bg-pattern bg-center bg-no-repeat px-6 py-8 xl:px-60 xl:py-10">
-          <div className="flex flex-col gap-10 text-left font-alt md:px-10 md:text-center">
-            <h1 className="text-3xl md:text-5xl">
+        <div className="flex h-full w-full flex-col items-center space-y-2 bg-pattern bg-center bg-no-repeat px-4 py-8 xl:px-60 xl:py-10">
+          <div className="flex flex-col gap-10 text-center font-alt md:px-10">
+            <h1 className="text-2xl md:text-5xl">
               Conheça nosso software e as soluções que oferecemos em diversos
               segmentos:
             </h1>
           </div>
 
-          <div className="font-baijamjuree-bold grid justify-center gap-8 px-4 py-14 text-center sm:grid-cols-2 md:text-lg xl:grid-cols-3">
+          <div className="font-baijamjuree-bold grid justify-center gap-8 px-2 py-14 text-center sm:grid-cols-2 md:text-lg xl:grid-cols-3">
             <div className="rounded-lg border-2 border-blue-400/10 px-10 py-8 shadow-md shadow-sky-800/50 hover:border-2 hover:border-sky-500/70">
               <Link
                 href="/solutions/midas"
