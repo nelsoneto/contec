@@ -25,7 +25,9 @@ export function Navbar() {
         >
           <Image src={contecLogo} alt="Contec Sistemas" className="h-8 w-8" />
           <span className="max-w-0 overflow-hidden text-nowrap px-2 text-xl lg:max-w-56">
-            <span className="pl-6 text-slate-200 lg:pl-0">CONTEC SISTEMAS</span>
+            <span className="pl-12 text-slate-200 lg:pl-0">
+              CONTEC SISTEMAS
+            </span>
           </span>
         </Link>
 
