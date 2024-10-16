@@ -1,6 +1,7 @@
 export function Header() {
   return (
-    <section className="bg-stars relative mt-9 h-auto w-auto bg-cover bg-center px-4 py-32 md:bg-bannerImg xl:h-screen xl:px-60 xl:py-64">
+    // eslint-disable-next-line prettier/prettier
+    <header className="mt-9 h-auto w-auto bg-cover bg-stars bg-center px-4 py-32 md:bg-bannerImg xl:h-screen xl:px-60 xl:py-64">
       <div className="w-full items-center justify-center gap-7 rounded-lg md:grid md:grid-cols-2">
         <div className="items-center justify-center gap-10 text-balance rounded-lg">
           <div className="w-auto rounded-md text-center font-alt text-4xl md:text-start md:text-5xl xl:py-28 xl:text-6xl">
@@ -18,6 +19,6 @@ export function Header() {
           />
         </div> */}
       </div>
-    </section>
+    </header>
   )
 }
