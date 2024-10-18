@@ -21,7 +21,7 @@ export function Hero() {
           </p>
           <Link
             href="/solutions/midas"
-            className="mb-6 rounded-lg bg-blue-600 px-4 py-3 text-center text-xl text-zinc-100 hover:bg-blue-800"
+            className="mb-6 rounded-lg bg-blue-600 px-4 py-3 text-center text-xl text-zinc-100 transition-colors hover:bg-blue-800"
           >
             Saiba mais
           </Link>

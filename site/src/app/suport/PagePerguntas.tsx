@@ -8,7 +8,7 @@ import { ChevronDown } from 'lucide-react'
 import Image from 'next/image'
 import img2 from '../../../public/images/perguntas.jpg'
 
-export default function PagePerguntas() {
+export function PagePerguntas() {
   return (
     <>
       <h2 className="flex justify-center bg-slate-800 pt-14 font-alt text-2xl text-blue-400 md:text-3xl">

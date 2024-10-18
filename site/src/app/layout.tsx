@@ -1,5 +1,6 @@
 import { Footer } from '@/components/Footer'
 import { Navbar } from '@/components/Navbar'
+import { Widget } from '@/components/Widget'
 import type { Metadata } from 'next'
 import {
   Bai_Jamjuree as BaiJamjuree,
@@ -32,6 +33,7 @@ export default function RootLayout({
           <Navbar />
           {/* <Slider /> */}
           {children}
+          <Widget />
           <Footer />
         </main>
       </body>

@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import whatsAppImg from '../../../public/images/WhatsApp.png'
-import DownloadContents from './DownloadContents'
-import PagePerguntas from './PagePerguntas'
+import { DownloadContents } from './DownloadContents'
+import { PagePerguntas } from './PagePerguntas'
 
-export default function newTest() {
+export default function SuportPage() {
   return (
     <div className="mx-auto max-h-max w-full text-slate-300">
       <div className="mt-12 flex h-full w-full items-center justify-center gap-4 bg-gradient-to-r from-blue-900 via-sky-700 to-blue-900 py-4">

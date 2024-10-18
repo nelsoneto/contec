@@ -1,4 +1,4 @@
-export default function PageMidasHero() {
+export function PageMidasHero() {
   return (
     <>
       <div className="flex w-auto flex-col space-y-8 bg-slate-800 py-4 xl:px-72">

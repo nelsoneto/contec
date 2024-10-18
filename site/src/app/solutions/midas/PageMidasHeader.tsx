@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import erpImg from '../../../../public/images/Midas-menu.png'
 
-export default function PageMidasHeader() {
+export function PageMidasHeader() {
   return (
     <div className="gap-2 text-pretty xl:flex-col">
       <div className="mt-12 flex h-full w-full justify-center gap-4 bg-gradient-to-r from-blue-900 via-sky-700 to-blue-900 py-4 xl:mt-14">

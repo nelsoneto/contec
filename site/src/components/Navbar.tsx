@@ -17,7 +17,7 @@ export function Navbar() {
 
   return (
     <div className="fixed left-0 top-0 z-50 w-full font-alt shadow-md">
-      <div className="items-center justify-between bg-slate-800 px-8 py-2 md:flex 2xl:px-64">
+      <div className="items-center justify-between bg-slate-900 px-8 py-2 md:flex 2xl:px-64">
         {/* logo section */}
         <Link
           href="/"
@@ -40,13 +40,13 @@ export function Navbar() {
         </div>
         {/* linke items */}
         <ul
-          className={`absolute left-0 z-[-1] w-full bg-slate-800 pb-12 pl-5 transition-all duration-500 ease-linear md:static md:z-auto md:flex md:w-auto md:items-center md:pb-0 md:pl-0 ${open ? 'top-12' : 'top-[-490px]'}`}
+          className={`absolute left-0 z-[-1] w-full pb-12 pl-5 transition-all duration-500 ease-linear md:static md:z-auto md:flex md:w-auto md:items-center md:pb-0 md:pl-0 ${open ? 'top-12' : 'top-[-490px]'}`}
         >
           {Links.map((link) => (
             <li key={link.id} className="my-7 py-2 md:my-0 md:ml-8">
               <a
                 href={link.link}
-                className="rounded-md border border-transparent px-3 py-2 text-zinc-100 hover:border-blue-400 focus:border-blue-400 focus:outline-none"
+                className="rounded-md border border-transparent px-3 py-2 text-zinc-100 transition-colors hover:bg-slate-800 focus:border-blue-500 focus:outline-none"
               >
                 {link.name}
               </a>

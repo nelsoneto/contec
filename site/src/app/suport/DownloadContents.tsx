@@ -4,7 +4,7 @@ import Link from 'next/link'
 import anyDeskImg from '../../../public/images/AnyDesk.png'
 import teamViewerImg from '../../../public/images/TeamViewer.png'
 
-export default function DownloadContents() {
+export function DownloadContents() {
   return (
     <>
       <div className="flex flex-col items-center justify-center py-10 text-2xl">
