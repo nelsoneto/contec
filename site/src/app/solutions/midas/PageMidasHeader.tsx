@@ -1,10 +1,7 @@
-import Image from 'next/image'
-import erpImg from '../../../../public/images/Midas-menu.png'
-
 export function PageMidasHeader() {
   return (
     <div className="gap-2 text-pretty xl:flex-col">
-      <div className="mt-12 flex h-full w-full justify-center gap-4 bg-gradient-to-r from-blue-900 via-sky-700 to-blue-900 py-4 xl:mt-14">
+      <div className="mt-10 flex h-full w-full justify-center gap-4 bg-gradient-to-r from-blue-900 via-sky-700 to-blue-900 py-4 xl:mt-14">
         <h1 className="bg-gradient-to-r from-cyan-300 via-sky-400 to-blue-300 bg-clip-text px-1 font-alt text-4xl text-transparent md:text-6xl">
           MIDAS
         </h1>
@@ -17,12 +14,12 @@ export function PageMidasHeader() {
       </div>
 
       <div className="items-center text-center">
-        <div className="flex flex-col items-center justify-center">
-          <Image
+        <div className="max-h-screen bg-midas bg-center bg-no-repeat xl:h-screen">
+          {/* <Image
             src={erpImg}
-            alt="Sistema MIDAS"
+            alt="Sistema MIDAS" 
             className="h-4/6 w-4/6 object-cover"
-          />
+          /> */}
         </div>
       </div>
       <div className="w-auto bg-gradient-to-r from-blue-900 via-cyan-700 to-blue-900 p-4 xl:px-72">

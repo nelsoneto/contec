@@ -12,6 +12,7 @@ const config: Config = {
         bannerImg: 'url(/images/freepik-woman-bus.jpg)',
         pattern: 'url(/images/bg.png)',
         stars: 'url(/images/smart-technology.jpg)',
+        midas: 'url(/images/Midas-menu.png)',
       },
       fontFamily: {
         sans: 'var(--font-roboto)',

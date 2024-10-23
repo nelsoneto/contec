@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export function Header() {
   return (
     // eslint-disable-next-line prettier/prettier
@@ -18,6 +20,14 @@ export function Header() {
             className="h-auto w-auto rounded-xl object-cover"
           />
         </div> */}
+      </div>
+      <div className="flex w-full justify-end text-xs text-zinc-500">
+        <Link
+          rel="noreferrer"
+          href="https://www.freepik.com/free-photo/close-up-portrait-smiling-girl-entrepreneur-office-woman-glasses-looking-happy-confident-s_22531011.htm#from_view=detail_alsolike"
+        >
+          Image by benzoix on Freepik
+        </Link>
       </div>
     </header>
   )
