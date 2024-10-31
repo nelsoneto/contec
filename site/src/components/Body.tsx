@@ -1,9 +1,9 @@
 import {
   BrickWall,
-  Coffee,
   Factory,
   Handshake,
   Headset,
+  Package,
   RefreshCcw,
   Shirt,
   ShoppingCart,
@@ -49,8 +49,8 @@ export function Body() {
                 href="/solutions/midas"
                 className="flex flex-col items-center justify-center gap-6"
               >
-                PANIFICADORAS
-                <Coffee className="h-8 w-8 md:h-16 md:w-16" />
+                ATACADO E VAREJO
+                <Package className="h-8 w-8 md:h-16 md:w-16" />
               </Link>
             </div>
 
